@@ -1,0 +1,55 @@
+  207  cat -u Swedish.csv Danish.csv Norwegian.csv 
+  208  man sort
+  209  cat -u Swedish.csv Danish.csv Norwegian.csv > Scandinavian.csv
+  210  ls Scandinavian.csv 
+  211  cat Scandinavian.csv 
+  212  echo Sent to the terminal
+  213  echo
+  214  clear
+  215  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  216  cat wilders.csv 
+  217  grep "PHP" wilders.csv | grep "France" wilders.csv | grep "2019" wilders.csv > php_france_2019.csv
+  218  cat php_france_2019.csv 
+  219  rm php_france_2019.csv 
+  220  gret "PHP" wilders.csv > php.csv
+  221  grep "PHP" wilders.csv > php.csv
+  222  grep "2019" php.csv > 2019.csv
+  223  grep "France" 2019.csv > php_france_2019.csv
+  224  cat php_france_2019.csv 
+  225  grep "javascript" wilders.csv > javascript.csv
+  226  grep "Biarritz" javascript.csv  > javascript-biarritz.csv
+  227  grep "Toulouse" javascript.csv > javascript-toulouse.csv
+  228  cat javascript-biarritz.csv javascript-toulouse.csv > javascript_biarritz_toulouse.csv
+  229  cat javascript_biarritz_toulouse.csv 
+  230  cat javascript.csv
+  231  grep "Javascript" wilders.csv > javascript.csv
+  232  grep "Biarritz" javascript.csv  > javascript-biarritz.csv
+  233  grep "Toulouse" javascript.csv > javascript-toulouse.csv
+  234  cat javascript-biarritz.csv javascript-toulouse.csv > javascript_biarritz_toulouse.csv
+  235  cat javascript_biarritz_toulouse.csv 
+  236  cat php_france_2019.csv 
+  237  cat wilders.csv
+  238  ls
+  239  rm javascript-biarritz.csv 
+  240  rm javascript-toulouse.csv 
+  241  rm javascript.csv 
+  242  rm javascript_biarritz_toulouse.csv 
+  243  ls
+  244  cat wilders.csv 
+  245  grep JavaScript wilders.csv > javascript.csv
+  246  cv javascript.csv 
+  247  cat javascript.csv 
+  248  grep "Biarritz" javascript.csv > javascript-biarritz.csv
+  249  cat javascript-biarritz.csv 
+  250  grep "Toulouse" javascript.csv > javascript-toulouse.csv
+  251  cat javascript-toulouse.csv javascript-biarritz.csv > javascript_biarritz_toulouse.csv
+  252  cat javascript_biarritz_toulouse.csv 
+  253  history
+  254  tail history
+  255  tail -n 40
+  256  tail
+  257  history | tail -n 40
+  258  history | tail -n 80 > history.tx
+  259  history | tail -n 80 > history.txt
+  260  cat history.txt
+  261  history | tail -n 55 > history.txt
